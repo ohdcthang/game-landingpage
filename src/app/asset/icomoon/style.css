@@ -1,0 +1,52 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-app_viction {
+  width: 0.9892578125em;
+}
+
+.icon-app_trezor_hardware {
+  width: 0.71875em;
+}
+
+.icon-app_ledger_hardware {
+  width: 1.15625em;
+}
+
+.icon-app_zk_polygon {
+  width: 0.998046875em;
+}
+
+.icon-app_zk_lite {
+  width: 1.001953125em;
+}
+
+.icon-gameReward {
+  width: 1.0830078125em;
+}
+
+.icon-facebook {
+  width: 1.0048828125em;
+}
+
+.icon-website {
+  width: 0.9931640625em;
+}
+
+.icon-app_cable {
+  width: 1.0498046875em;
+}
