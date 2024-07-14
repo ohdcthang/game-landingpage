@@ -19,6 +19,7 @@
 }
 
 body {
+  color: white;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -30,6 +31,21 @@ body {
   /* "DM Serif Display", serif;// */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.banner{
+  background-image: url('./asset/img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 60px; bottom: 0;
+  background: rgba(0,0,0,.15);
 }
 
 @layer utilities {
