@@ -8,10 +8,10 @@ import { Fade } from 'react-awesome-reveal'
 
 export const Header = () => {
   return (
-    <Fade  direction='down' duration='100'>
+    <Fade  direction='down' duration={100}>
     <div className='h-[60px] bg-black bg-opacity-60 fixed top-0 right-0 left-0 flex justify-between items-center px-4 lg:px-12 text-lg text-white font-semibold '>
       <div className='shadow-lg'>
-       <Image src={logo} width={180}/>
+       <Image src={logo} width={180} alt =''/>
       </div>
       <div className='lg:hidden'>
         <Icon icon='app_menu' size={20} />
